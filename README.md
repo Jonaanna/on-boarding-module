@@ -117,6 +117,7 @@ plt.show() # shows image
 | Alexa_488     | C         | ISS base (Cytosine) | ❌ No                             
 | Alexa_568     | G         | ISS base (Guanine)  | ❌ No                             
 | Alexa_647     | T         | ISS base (Thymine)  | ❌ No                             
+
 nCycles = 4
 nChannel = 6
 
@@ -175,7 +176,7 @@ nChannel = 6
 -> create a list with the file paths of your images*
 -> use your method to count the nuclei and show the images with detected nuclei
 
-## 14.2
+### 14.2 all fov
 
 **Script for your method on all fovs**
 
@@ -299,7 +300,7 @@ for fov, x, y, barcode in all_sequences:
         "gene": gene
     })
 ```
- ### 15.4 All fovs
+### 15.4 All fovs
 **Create another csv file with aggregated counts for each gene and fov: fov, gene, count**
 - group the data by FOV and gene 
 - count with `.size()`how many spots exist for each fov and gene 
