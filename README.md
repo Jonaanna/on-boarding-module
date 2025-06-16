@@ -307,7 +307,7 @@ for fov, x, y, barcode in all_sequences:
 - .size().reset_index(name="count") gives new dataframe with colomns fov, gene and count 
 - save as `gene_counts_by_fov.csv` file 
 
-### 15.5  Compare your results
+### 15.5  Compare your results (additinal!!) 
 
  The downloaded data provides a folder called `decoding.zip`. There you can find different methods that created spot location and decodings.
 
@@ -321,4 +321,6 @@ for fov, x, y, barcode in all_sequences:
  - Compare the relative mRNA percentage per gene: posSTcode vs. MyMethod 
     - Plot all genes of both methods cand compare the outcome
     - What is the most/least frquent gene in myMethod and PoSTcode
-    - Largest percentage difference with PoSTcode  
+    - Largest percentage difference with PoSTcode
+  
+# Finsih the onboarding-module by writing a Protocol
