@@ -323,4 +323,4 @@ for fov, x, y, barcode in all_sequences:
     - What is the most/least frquent gene in myMethod and PoSTcode
     - Largest percentage difference with PoSTcode
   
-# Finsih the onboarding-module by writing a Protocol
+## Finishing the onboarding-module by writing a Protocol with the provided guidelines
